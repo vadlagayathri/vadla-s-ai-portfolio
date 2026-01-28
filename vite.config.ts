@@ -4,15 +4,21 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/vadla-s-ai-portfolio/",   // 👈 REQUIRED FOR GITHUB PAGES
+  base: "/vadla-s-ai-portfolio/", // 🔴 REQUIRED for GitHub Pages
+
   server: {
-    host: "::",
+    host: true,
     port: 8080,
     hmr: {
       overlay: false,
     },
   },
-  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+
+  plugins: [
+    react(),
+    mode === "development" && componentTagger(),
+  ].filter(Boolean),
+
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
