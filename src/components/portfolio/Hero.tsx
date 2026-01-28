@@ -65,12 +65,11 @@ const Hero = () => {
               
               {/* Profile Picture Container */}
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full bg-secondary border-2 border-primary/30 flex items-center justify-center overflow-hidden">
-                <div className="text-center">
-                  <div className="w-20 h-20 mx-auto mb-3 rounded-full bg-muted flex items-center justify-center">
-                    <span className="text-3xl font-display font-bold text-primary">VG</span>
-                  </div>
-                  <p className="text-sm text-muted-foreground">Profile Photo</p>
-                </div>
+                <img 
+                  src="https://i.postimg.cc/9QMr0LSY/Whats-App-Image-2026-01-28-at-10-46-13-AM.jpg"
+                  alt="Vadla Gayathri - AI & ML Engineer"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
