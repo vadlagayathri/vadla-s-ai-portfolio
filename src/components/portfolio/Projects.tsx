@@ -63,11 +63,15 @@ const Projects = () => {
                   <project.icon className="h-6 w-6 text-primary" />
                 </div>
                 <div className="flex gap-2">
-                  <Button variant="ghost" size="icon" className="h-8 w-8 text-muted-foreground hover:text-primary">
-                    <Github className="h-4 w-4" />
+                  <Button variant="ghost" size="icon" className="h-8 w-8 text-muted-foreground hover:text-primary" asChild>
+                    <a href="https://github.com/VadlaGaythri00?tab=repositories" target="_blank" rel="noopener noreferrer">
+                      <Github className="h-4 w-4" />
+                    </a>
                   </Button>
-                  <Button variant="ghost" size="icon" className="h-8 w-8 text-muted-foreground hover:text-primary">
-                    <ExternalLink className="h-4 w-4" />
+                  <Button variant="ghost" size="icon" className="h-8 w-8 text-muted-foreground hover:text-primary" asChild>
+                    <a href="https://github.com/VadlaGaythri00?tab=repositories" target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="h-4 w-4" />
+                    </a>
                   </Button>
                 </div>
               </div>

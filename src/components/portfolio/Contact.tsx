@@ -40,8 +40,8 @@ const Contact = () => {
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com/dashboard',
-      value: 'github.com/vadlagayathri',
+      href: 'https://github.com/VadlaGaythri00?tab=repositories',
+      value: 'github.com/VadlaGaythri00',
     },
     {
       icon: Linkedin,

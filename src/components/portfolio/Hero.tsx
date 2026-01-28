@@ -39,9 +39,16 @@ const Hero = () => {
                 variant="outline"
                 size="lg"
                 className="border-primary/50 text-primary hover:bg-primary/10"
+                asChild
               >
-                <Download className="mr-2 h-4 w-4" />
-                Download Resume
+                <a 
+                  href="https://drive.google.com/file/d/1Ij3qTxdM46ladseyq8zx4N51ugmCvrbq/view?usp=sharing" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <Download className="mr-2 h-4 w-4" />
+                  Download Resume
+                </a>
               </Button>
               <Button
                 variant="ghost"
